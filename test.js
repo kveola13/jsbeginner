@@ -29,4 +29,9 @@ let soldier = {
     provision: 6
 };
 
-console.table({archerCard, bowmanCard, soldier})
+console.table({archerCard, bowmanCard, soldier});
+
+function showCards(){
+    console.log(`%c${cards[0]}`, 'color:red; font-weight:bold;background:black')
+}
+showCards();
