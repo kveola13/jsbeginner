@@ -1,7 +1,6 @@
 import React from "react"
 import ReactDom from "react-dom"
-import MyInfo from "./components/MyInfo"
-import Footer from "./components/Footer"
+import MainComponent from "./components/MainComponent"
 
 function ReactApp(){
     return (
@@ -11,7 +10,7 @@ function ReactApp(){
             <li>Jaskier</li>
             <li>Yarpen</li>
         </ul>
-        <Footer/>
+        <MainComponent/>
       </div>
       )
 }
