@@ -2,6 +2,7 @@ import React from "react"
 import Header from "./Header"
 import Footer from "./Footer"
 import NewApp from "./NewApp"
+import MoreComplexApp from "./MoreComplexApp"
 
 function MainComponent() {
     return(
@@ -9,6 +10,7 @@ function MainComponent() {
             <Header/>
             <NewApp/>
             <Footer/>
+            <MoreComplexApp/>
         </div>
     )
 }
