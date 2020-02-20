@@ -10,4 +10,16 @@ function ReactApp(){
         </ul>)
 }
 
-ReactDom.render(<ReactApp/>, document.getElementById("root"))
+function MyInfo(){
+  return(
+    <div>
+      <h1>Ola</h1>
+      <p>Programmer</p>
+      <li>Java</li>
+      <li>Python</li>
+      <li>JS?</li>
+    </div>
+  )
+}
+
+ReactDom.render(<MyInfo/>, document.getElementById("root"))
