@@ -1,16 +1,15 @@
 import React from "react"
 import ReactDom from "react-dom"
 import MainComponent from "./components/MainComponent"
+import TodoItem from "./components/TodoItem"
 
 function ReactApp(){
     return (
-      <div>
-        <ul>
-            <li>Geralt</li>
-            <li>Jaskier</li>
-            <li>Yarpen</li>
-        </ul>
-        <MainComponent/>
+      <div className="todolist">
+        <TodoItem/>
+        <TodoItem/>
+        <TodoItem/>
+        <TodoItem/>
       </div>
       )
 }
