@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDom from "react-dom"
-import MainComponent from "./components/MainComponent"
+//import MainComponent from "./components/MainComponent"
 import TodoItem from "./components/TodoItem"
 
 function ReactApp(){
