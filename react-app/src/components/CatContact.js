@@ -1,13 +1,12 @@
 import React from "react"
 
-function CatContact(){
+function CatContact(props) {
     return(
         <div className="card">
-                <img src="http://placekitten.com/300/200">
-                    <h3>Cutie</h3>
-                    <h3>Price tag: 300$</h3>
-                    <p>email him at cutie@patootie.com</p>
-                </img>
+                <img src={props.contact.imgUrl}/>
+                    <h2>{props.contact.name}</h2>
+                    <h3>price: {props.contact.price}</h3>
+                    <p>email: {props.contact.email}</p>
             </div>
     )
 }
