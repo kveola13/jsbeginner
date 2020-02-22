@@ -1,12 +1,11 @@
 import React from "react"
 import ReactDom from "react-dom"
-//import MainComponent from "./components/MainComponent"
-import CatCards from "./components/CatCards"
+import WhoSaid from "./components/WhoSaid"
 
 function ReactApp(){
     return (
       <div>
-        <CatCards/>
+        <WhoSaid/>
       </div>
       )
 }
