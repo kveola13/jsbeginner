@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDom from "react-dom"
-import WhoSaid from "./components/WhoSaid"
+import WhoSaid from "./components/Quotes/WhoSaid"
 
 function ReactApp(){
     return (
