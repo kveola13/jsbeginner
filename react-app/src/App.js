@@ -1,11 +1,11 @@
 import React from "react"
 import ReactDom from "react-dom"
-import WhoSaid from "./components/Quotes/WhoSaid"
+import GwentCards from "./components/Gwent/GwentCards"
 
 function ReactApp(){
     return (
       <div>
-        <WhoSaid/>
+        <GwentCards/>
       </div>
       )
 }
