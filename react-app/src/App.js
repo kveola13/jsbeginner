@@ -1,11 +1,11 @@
 import React from "react"
 import ReactDom from "react-dom"
-import GwentCards from "./components/Gwent/GwentCards"
+import TodoApp from "./components/Todo/TodoApp"
 
 function ReactApp(){
     return (
       <div>
-        <GwentCards/>
+        <TodoApp/>
       </div>
       )
 }
