@@ -1,11 +1,11 @@
 import React from "react"
 import ReactDom from "react-dom"
-import App from "./components/Functionals/ClassApp"
+import LoginAndOut from "./components/Functionals/LoginAndOut"
 
 function ReactApp(){
     return (
       <div>
-        <ClassApp/>
+        <LoginAndOut/>
       </div>
       )
 }
