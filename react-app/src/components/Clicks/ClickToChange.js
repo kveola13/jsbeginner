@@ -6,17 +6,22 @@ class ClickToChange extends React.Component{
         this.state = {
             count: 0
         }
+        this.whenClicked = this.whenClicked.bind(this)
     }
 
     whenClicked(){
-        
+        this.setState(previousState => {
+            return {
+                count: previousState.count + 1
+            }
+        })
     }
 
     render(){
         return(
             <div>
                 <h1>{this.state.count}</h1>
-                <button onClick={this.whenClicked}>++</button>
+                <button onClick={this.whenClicked}>Increase</button>
             </div>
         )
     }
