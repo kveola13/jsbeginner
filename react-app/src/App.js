@@ -1,11 +1,12 @@
 import React from "react"
 import ReactDom from "react-dom"
-import HandleClick from "./components/HandleClick"
+
+import ClickToChange from "./components/Clicks/ClickToChange"
 
 function ReactApp(){
     return (
       <div>
-        <HandleClick/>
+        <ClickToChange/>
       </div>
       )
 }
