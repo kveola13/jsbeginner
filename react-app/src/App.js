@@ -1,11 +1,11 @@
 import React from "react"
 import ReactDom from "react-dom"
-import LoginAndOut from "./components/Functionals/LoginAndOut"
+import HandleClick from "./components/HandleClick"
 
 function ReactApp(){
     return (
       <div>
-        <LoginAndOut/>
+        <HandleClick/>
       </div>
       )
 }
