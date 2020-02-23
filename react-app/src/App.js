@@ -1,11 +1,11 @@
 import React from "react"
 import ReactDom from "react-dom"
-import App from "./components/Functionals/App"
+import App from "./components/Functionals/ClassApp"
 
 function ReactApp(){
     return (
       <div>
-        <App/>
+        <ClassApp/>
       </div>
       )
 }

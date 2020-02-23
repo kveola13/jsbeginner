@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 
-class App extends React.Component {
+class ClassApp extends React.Component {
     render(){
         return(
             <div>
@@ -32,4 +32,4 @@ class Footer extends Component{
     }        
 }
 
-export default App
+export default ClassApp
