@@ -4,7 +4,7 @@ class ClickToChange extends React.Component{
     constructor() {
         super()
         this.state = {
-            count: 0
+            count: 1
         }
         this.whenClicked = this.whenClicked.bind(this)
     }

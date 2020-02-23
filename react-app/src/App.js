@@ -1,6 +1,5 @@
 import React from "react"
 import ReactDom from "react-dom"
-
 import ClickToChange from "./components/Clicks/ClickToChange"
 
 function ReactApp(){
