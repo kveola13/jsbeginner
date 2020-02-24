@@ -8,12 +8,19 @@ class TodoApp extends React.Component {
         this.state={
             Todos: TodoItemData
         }
+        this.handleClick = this.handleClick.bind(this)
     }
+
+    handleClick(id){
+        console.log("Clicked", id)
+    }
+
     render(){
         const Todos = this.state.Todos.map(todo => 
         <TodoItem key={todo.id}
             description={todo.description}
             completed={todo.completed}
+            handleClick={this.handleClick}
         />)
         return(
             <div>

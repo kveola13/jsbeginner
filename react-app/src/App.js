@@ -1,11 +1,11 @@
 import React from "react"
 import ReactDom from "react-dom"
-import ClickToChange from "./components/Clicks/ClickToChange"
+import TodoApp from "./components/Todo/TodoApp"
 
 function ReactApp(){
     return (
       <div>
-        <ClickToChange/>
+        <TodoApp/>
       </div>
       )
 }
