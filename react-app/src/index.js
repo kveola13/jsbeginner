@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TodoApp from './components/Todo/TodoApp';
+import LifecycleApp from './components/Lifecycle/LifecycleApp';
 
-ReactDOM.render(<TodoApp />,document.getElementById('root'));
+ReactDOM.render(<LifecycleApp />,document.getElementById('root'));
