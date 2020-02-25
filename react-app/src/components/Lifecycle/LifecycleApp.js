@@ -20,7 +20,7 @@ class LifecycleApp extends Component {
     render(){
         return(
             <div>
-                <LifecycleConditional loading={this.state.loading}/>
+                {this.state.loading ? <h2>Loading...</h2> : <LifecycleConditional/>}
             </div>
         )
     }
