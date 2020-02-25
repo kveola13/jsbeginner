@@ -12,20 +12,32 @@ class TodoApp extends React.Component {
     }
 
     handleClick(id){
-        console.log("Clicked", id)
+        this.setState(previousState =>{
+            const newTodos = previousState.todos.map(previousTodo =>{
+                if(previousTodo.id === id){
+                    previousTodo.completed = !previousTodo.completed
+                }
+                return previousTodo
+            })
+            return{
+                todos: newTodos
+            }
+        })
     }
 
     render(){
-        const Todos = this.state.todos.map(todo => 
-        <TodoItem key={todo.id}
-            todo={todo}
-            description={todo.description}
-            completed={todo.completed}
+        const todoItems = this.state.todos.map(item =>
+        <TodoItem 
+            key={item.id}
+            item={item}
+            completed={item.completed}
+            description={item.description}
             handleClick={this.handleClick}
         />)
+        
         return(
-            <div>
-                {Todos}
+            <div className="todoList">
+                {todoItems}
             </div>
         )
     }
