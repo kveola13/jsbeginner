@@ -6,7 +6,7 @@ class TodoApp extends React.Component {
     constructor(){
         super()
         this.state={
-            Todos: TodoItemData
+            todos: TodoItemData
         }
         this.handleClick = this.handleClick.bind(this)
     }
@@ -16,8 +16,9 @@ class TodoApp extends React.Component {
     }
 
     render(){
-        const Todos = this.state.Todos.map(todo => 
+        const Todos = this.state.todos.map(todo => 
         <TodoItem key={todo.id}
+            todo={todo}
             description={todo.description}
             completed={todo.completed}
             handleClick={this.handleClick}
