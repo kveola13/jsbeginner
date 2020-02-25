@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ConditionalApp from './components/Conditionals/ConditionalApp';
+import TodoApp from './components/Todo/TodoApp';
 
-ReactDOM.render(<ConditionalApp />,document.getElementById('root'));
+ReactDOM.render(<TodoApp />,document.getElementById('root'));
