@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import LifecycleApp from './components/Lifecycle/LifecycleApp';
+import ConditionalApp from './components/Conditionals/ConditionalApp';
 
-ReactDOM.render(<LifecycleApp />,document.getElementById('root'));
+ReactDOM.render(<ConditionalApp />,document.getElementById('root'));
