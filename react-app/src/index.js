@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TodoApp from './components/Todo/TodoApp';
+import FetchData from './components/Lifecycle/FetchData';
 
-ReactDOM.render(<TodoApp />,document.getElementById('root'));
+ReactDOM.render(<FetchData />,document.getElementById('root'));
