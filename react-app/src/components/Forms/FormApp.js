@@ -96,6 +96,7 @@ class FormApp extends Component {
                 <br/>
                 <h3>{this.state.enteredText} is a witcher? {this.state.witcher}</h3>
                 <p>Chosen decoction is {this.state.potion}</p>
+                <button>Submit</button>
             </form>
         )
     }
