@@ -23,7 +23,14 @@ class TravelForm extends Component {
 
     handleChange(event){
         const {name, value, type, checked} = event.target
-        type === "checkbox"
+        type === "checkbox" ? this.setState(previousState => {
+            return{
+                gameList: {
+                    ...previousState.gameList,
+                    [name]: checked
+                }
+            }
+        }):
         this.setState({
             [name]:value
         })
@@ -112,14 +119,13 @@ class TravelForm extends Component {
                     </input>Doom
                 </label>
                 <br />
-
+            
                 <button>Submit</button>
-                <p>{this.state.firstName}</p>
-                <p>{this.state.middleName}</p>
-                <p>{this.state.lastName}</p>
+                <p>{this.state.firstName} {this.state.middleName} {this.state.lastName}</p>
                 <p>{this.state.gender}</p>
                 <p>{this.state.age}</p>
                 <p>{this.state.nationality}</p>
+                <p>{JSON.stringify(this.state.gameList)}</p>
             </main>
         )
     }
