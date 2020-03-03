@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import FormApp from './components/Forms/FormApp';
+import TravelForm from './components/Forms/TravelForm';
 
-ReactDOM.render(<FormApp />,document.getElementById('root'));
+ReactDOM.render(<TravelForm />,document.getElementById('root'));
