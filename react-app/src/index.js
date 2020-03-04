@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Meme from './components/MemeMachine/Meme';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import MostComplexApp from "./components/MostComplexApp";
 
-ReactDOM.render(<Meme />,document.getElementById('root'));
+ReactDOM.render(<MostComplexApp />, document.getElementById("root"));
