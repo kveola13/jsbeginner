@@ -1,19 +1,13 @@
 import React, { Component } from "react";
 
 class MostComplexApp extends Component {
-  constructor() {
-    super();
-    this.state = {
-      firstName: ""
-    };
-    this.handleChange = this.handleChange.bind(this);
-  }
-  handleChange(event) {
+  state = { firstName: "" };
+  handleChange = event => {
     const { name, value } = event.target;
     this.setState({
       [name]: value
     });
-  }
+  };
   render() {
     return (
       <main>
