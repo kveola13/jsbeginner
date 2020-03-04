@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TravelForm from './components/Forms/TravelForm';
+import Meme from './components/MemeMachine/Meme';
 
-ReactDOM.render(<TravelForm />,document.getElementById('root'));
+ReactDOM.render(<Meme />,document.getElementById('root'));
